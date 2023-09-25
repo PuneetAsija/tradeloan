@@ -1,0 +1,1883 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size: 2rem;
+    font-weight:500;
+    color:#2b84ea;
+    padding: 1rem 4rem;
+    font-weight: 900;
+}
+.header .content h1{
+    color: #274598;
+    font-family: "Mulish", Sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 52px;
+    align-items: center;
+    padding: 6rem 7rem;
+}
+.header .content span{
+    color:#2b84ea
+}
+.header .content p{
+    color: black;
+    font-size: 1.4rem;
+    padding: 2rem 5rem;
+    left: 2rem;
+    position: relative;
+    top: -5rem;
+}
+.header .content .btn{
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    position: relative;
+    left:7rem;
+    background-color:#2b84ea;
+    color: white;
+    top: -29rem;
+    cursor: pointer;
+}
+.header .content img{
+    height: 70vh;
+    width: 35vw;
+    position: relative;
+    left: 35rem;
+    bottom: 22rem;
+}
+.header .content .para{
+    position: absolute;
+    left: 7rem;
+    bottom: 5rem;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 76.5pc;
+    background-color: red;
+    padding: .7rem .2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: fixed;
+    top: 1.8rem;
+}
+.header a i{
+    color: white;
+}
+.section .box-container{
+    position: relative;
+    bottom: 15rem;
+}
+.section .box-container img{
+    height: 70vh;
+    width: 35vw;
+    position: relative;
+    left: 32rem;
+    bottom: 19rem;
+}
+.section h2{
+    color: #274598;
+    font-family: "Mulish", Sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 52px;
+    align-items: center;
+    padding: 6rem 7rem;
+}
+.section .items li{
+font-size: 1.4rem;
+bottom: 3rem;
+position: relative;
+padding: .5rem 1rem;
+left: 8rem;
+}
+.section .btn{
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    position: relative;
+    left: 7rem;
+    background-color:#2b84ea;
+    color: white;
+    top: -27rem;
+    cursor: pointer;
+}
+.features{
+    position: relative;
+    bottom: 32rem;
+}
+.features h2{
+    color:#0C2266;
+    font-family: "Mulish", Sans-serif;
+    font-size: 1.8rem;
+    line-height: 52px;
+    padding: 1rem 7rem;
+    left: 10rem;
+    position: relative;
+}
+.features .loans .items{
+    font-size: 1.4rem;
+    padding: 2rem 8.5rem;
+   font-weight: 550;
+}
+.features .loans li{
+    padding: .2rem 8rem;
+    position: relative;
+}
+.features p{
+    position: relative;
+    left:9.5rem;
+    top: -1.3rem;
+}
+.features span{
+    position: relative;
+    left: 9rem;
+}
+.features img{
+    height: 55vh;
+    width: 20vw;
+    position: relative;
+    bottom: 20rem;
+    left: 48rem;
+}
+.businessLoan{
+    background-color: #2b84ea;
+    z-index: -1;
+position: relative;    
+bottom: 45rem;
+}
+.businessLoan span{
+    left: 9rem;
+    position: relative;
+}
+.businessLoan .box-container{
+    background-color: #2b84ea;
+}
+.businessLoan h3{
+    color: white;
+    position: relative;
+    left: 25rem;
+    font-size: 2.5rem;
+}
+table,th,td{
+    border: .1px dotted blue;
+    padding: 2rem 5rem;
+    left: 5rem;
+    position: relative;
+}
+td{
+    color: skyblue;
+    background:white;
+    font-weight:bold;
+    color: #0C2266;;
+}
+section.pricing{
+    position: absolute;
+    top: 168rem;
+}
+.pricing h1{
+    font-size: 3rem;
+    position: relative;
+    left: 7rem;
+    color: #0C2266;;
+}
+.pricing h2{
+    font-size: 3rem;
+    position: relative;
+    left: 40rem;
+    bottom: 3rem;
+    color: #0C2266;;
+}
+.pricing div{
+    position: relative;
+    top: 17rem;
+}
+.pricing p{
+    font-size: 1.8rem;
+    position: relative;
+    left: 7rem;
+}
+.pricing .btn{
+    position: relative;
+    left: 5.5rem;
+    font-size: 1.3rem;
+    color: white;
+    background: #2b84ea;
+    margin: 1.5rem;
+    border: none;
+    border-radius: .2rem;
+    top: 2rem;
+    padding: .8rem 2rem;
+    cursor: pointer;
+}
+.simple{
+    background:#0C2266;
+    position: relative;
+    z-index: -1;
+    bottom: 22rem;
+}
+.simple h1{
+    color: white;
+    position: relative;
+    left: 25rem;
+    font-size: 2.5rem;
+}
+.simple span{
+    position: relative;
+    left: 5rem;
+}
+.simple .box-container{
+    display: flex;
+    padding: 3rem 8rem;
+}
+.simple .box{
+    border: 2px solid black;
+    padding: 2rem 3rem;
+    gap: 2rem;
+    background: #000028;
+}
+.simple h2{
+    color: white;
+    padding: .1rem .5rem;
+    position: relative;
+    left: -3.5pc;
+    margin: 1rem 3.5rem;
+    border-radius: .5rem;
+    background: grey;
+    text-align: center;
+}
+.simple p{
+    color: rgb(187, 187, 187);
+    padding: 1rem 0rem;
+    position: relative;
+    top: 1.5rem;
+}
+.simple .image img{
+    height: 185px;
+    width: 150px;
+}
+.simple .svg img{
+    height: 185px;
+    width: 200px;
+}
+.question{
+    position: relative;
+    bottom: 18rem;
+}
+.question p{
+    border: 1px solid black;
+    padding: 2rem 5rem;
+    position: relative;
+    margin: 0rem 8rem;
+    left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 650;
+    font-family:'Times New Roman', Times, serif;
+    padding: .8rem 1.5rem;
+}
+.question h1{
+    text-align: center;
+    font-size: 3rem;
+    position: relative;
+    top: -2rem;
+}
+.question .panel{
+    display: none;
+    background: white;
+    overflow: hidden;
+}
+.question .panel p{
+    border: none;
+    font-size: 1.4rem;
+    position: relative;
+    left: -8rem;
+    color:white;
+    font-weight: bold;
+}
+.question .panel span{
+    border: none;
+    font-size: 1.1rem;
+    position: relative;
+    color:white;
+    left: 10rem;
+    font-weight: bold;
+    position: relative;
+    left: 1rem;
+}
+.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    width: 70%;
+    outline: none;
+    transition: .4s linear;
+    line-height: 2;
+}
+
+ .accordion .active:hover{
+  background-color: #0C2266;
+}
+.credit{
+    position: relative;
+    bottom: 12rem;
+    background: #2b84ea;
+    z-index: -1;
+}
+section .link h1{
+    font-size: 3rem;
+    position: relative;
+    left: 2rem;
+    color: white;
+    margin: 5rem;
+}
+section .link p{
+    font-size: 1.3rem;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    left: 7rem;
+}
+section .link .btn{
+    font-size: 1.2rem;
+    position: relative;
+    left: 3rem;
+    color: #2b84ea;
+    border-radius: .5rem;
+    border: none;
+    padding: .5rem 2rem;
+    margin: 4rem;
+    cursor: pointer;
+}
+.link img{
+    height: 450px ;
+    width: 550px;
+    position: absolute;
+    left: 42rem;
+    bottom: 2rem;
+}
+.contact .box-container{
+    position: relative;
+    bottom: 5rem;
+    background: black;
+    padding: 10rem 5rem;
+    z-index: -1;
+}
+.contact .box-container i{
+    color: wheat;
+    font-size: 4rem;
+}
+.contact h1{
+    font-size: 3rem;
+    text-align: center;
+     position: relative;
+     left: 10rem;
+     color:white;
+     bottom: 3rem;
+}
+.contact a{
+    font-size: 1.7rem;
+    color:white;
+    font-weight: bold;
+    position: relative;
+    left: 40rem;
+}
+.contact p{
+    font-size: 1.7rem;
+    color:white;
+ font-family: 'Times New Roman', Times, serif;
+ position: relative;
+    left: 35rem;
+padding: 1rem 5rem;
+}
+.contact img{
+    height: 60vh;
+    width: 30vw;
+    position: absolute;
+    top: 7rem;
+}
+.footer{
+    position: absolute;
+    bottom: -350rem;
+    left: 30rem;
+    font-size: 1.5rem;
+    color: white;
+}
+html{
+    overflow: auto;
+}
+@media only screen and (min-width: 400px)and (max-width:500px){
+    *{
+        left: 2.5rem;
+        position: relative;
+    }
+    .header .content h1{
+        font-size: 1.5rem;
+        padding: 1rem;
+        left: 2rem;
+        position: relative;
+    }
+    .header .logo{
+        font-size: 2.2rem;
+        left: -2.5rem;
+        position: relative;
+    }
+    .header .content img{
+        left: 28rem;
+        bottom: 20rem;
+        width: 350px;
+        height: 350px;
+        z-index: -1;
+    }
+    .header .content p{
+        top: -1rem;
+        position: relative;
+        left: -2.5rem;
+    }
+    .header .content .btn{
+        top: -1rem;
+        left: 2.2rem;
+        font-size: 1.3rem;
+    }
+    .header .content .para{
+        font-size: 1.4rem;
+        font-weight:549;
+        left: 2.2rem;
+        top: 26rem;
+    }
+    .header a{
+        font-size: 1.2rem;
+        left: 58rem;
+    }
+    .section .box-container h2{
+        font-size: 1.5rem;
+        padding: 1rem;
+        left: 2rem;
+        bottom: 1rem;
+        position: relative;
+    }
+    .section .items li{
+        font-size: 1.2rem;
+        left: 1rem;
+        top: .1rem;
+    }
+    .section .box-container img{
+        left: 30rem;
+        bottom: 18rem;
+        width: 300px;
+        height: 350px;
+        z-index: -1;
+    }
+    .section .box-container .btn{
+         top: 4rem;
+         left: 2.2rem;
+         font-size: 1.3rem;
+    }
+    .features h2{
+        font-size: 1.5rem;
+        position: relative;
+        padding: 1rem;
+        left: 15rem;
+        margin: 0 -8rem;
+    }
+    .features .loans .items{
+        padding: 1.8rem 0rem;
+        left: 4rem;
+        font-size: 1.3rem;
+    }
+    .features .loans p{
+        font-size: 1.3rem;
+        left: 3rem;
+        top: .2rem;
+    }
+    .features .loans li{
+        font-size: 1.3rem;
+        padding: .2rem;
+        left: 3.8rem;
+    }
+    .features img{
+        width: 270px;
+        top: -24rem;
+        left: 35rem;
+        z-index: -1;
+    }
+    .pricing h1{
+        left: 1rem;
+        font-size: 2.2rem;
+     top: -11rem;
+    }
+    .pricing h2{
+        left: 25rem;
+        font-size: 2.1rem;
+        top: -13rem;
+    }
+    .pricing div{
+        position: relative;
+        bottom: -4rem;
+    }
+   
+    .pricing p{
+        padding:1rem 1rem;
+        left: .5rem;
+        top: -14rem;
+        font-size: 1.5rem;
+    }
+    .pricing .btn{
+        left: .5rem;
+        top: -15rem;
+    }
+    .businessLoan .box-container{
+        margin: 0 -25rem;
+        left: 8rem;
+        position: relative;
+    }
+    .businessLoan h3{
+        left: 25rem;
+    }
+    .businessLoan{
+        bottom: 52rem;
+    }
+    .simple .box-container{
+        margin: 2rem -1rem;
+        left: 2rem;
+        display: contents;
+        top: -2rem;
+        position: relative;
+    }
+    .simple .box-container .box h2{
+        border-radius: .5rem;
+    }
+    .simple .box-container .box img{
+        height: 150px;
+        width: 200px;
+        margin: 0 7rem;
+    }
+    .simple h1{
+        top: 1rem;
+        left: 0rem;
+        margin: 0 -15rem;
+        font-weight: 300;
+    }
+    .simple h2{
+        padding: 0 -2rem;
+        margin: 0 12rem;
+        left:-2rem;
+    }
+    .simple .box{
+        padding: 0 -8rem;
+        margin: 2rem -18rem;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 1rem;
+    }
+    .simple{
+    padding: 0 130vw;
+    }
+    .question h1{
+      font-size: 2.2rem;
+      margin: 0 -2rem;
+      left: 25rem;
+    }
+    .question .box .accordion{
+        font-size: 1.5rem;
+        padding: 1rem 19rem;
+        position: relative;
+        left: -5rem;
+    }
+    .question .box .panel{
+        padding: 1rem -1rem;
+        margin: 0 -7rem;
+        left: -2rem;
+        position: relative;
+    }
+    .credit .link h1{
+        margin: 0 -55rem;
+        left: 25rem;
+    }
+    .credit .link p{
+        margin: 0 -37rem;
+        top: 1rem;
+    }
+    .credit .link .btn{
+        margin: 4rem -8rem;
+        padding: 1rem 3rem;
+        left: -22rem;
+    }
+    .credit .link img{
+        left: 1rem;
+    }
+    .credit{
+       padding: 2rem 35rem;
+    }
+    .contact .box-container{
+       padding:20rem 40em;
+    }
+    .contact .box-container img{
+        left: 5rem;
+        width: 300px;
+    }
+    .contact h1{
+        font-size: 2rem;
+        left: 1rem;
+        margin: -10rem -8rem;
+    }
+    .contact a{
+        top: 7rem;
+        left: -2rem;
+    }
+    .contact p{
+        top: 7rem;
+        left: 12rem;
+        margin: 0 -25rem;
+    }
+    .footer{
+     top: 400pc;
+     position: sticky;
+        margin: 0 -15rem;
+        left: 42rem;
+    }
+}
+@media only screen and (min-width: 501px)and (max-width:600px){
+    *{
+        left: 2rem;
+    }
+.header a{
+    left: 60pc;
+}
+.header .content h1{
+    font-size: 1.4rem;
+    padding: 1rem;
+    left: 2rem;
+    position: relative;
+}
+.header .logo{
+    font-size: 2.2rem;
+    left: -2.5rem;
+    position: relative;
+}
+.header .content img{
+    left: 30rem;
+    bottom: 18rem;
+    width: 250px;
+    height: 250px;
+}
+.header{
+position: relative;
+left: 2.5rem;
+}
+.header .content p{
+    top: -1rem;
+    position: relative;
+    left: -2.2rem;
+}
+.header .content .btn{
+    top: -14rem;
+    left: 2.2rem;
+    font-size: 1.3rem;
+}
+.header .content .para{
+    font-size: 1.2rem;
+    font-weight:549;
+    left: 2.2rem;
+    top: 26rem;
+}
+.section .box-container h2{
+    font-size: 1.4rem;
+    padding: 1rem;
+    left: 2rem;
+    bottom: -5rem;
+    position: relative;
+}
+.section .items li{
+    font-size: 1.1rem;
+    left: 4.2rem;
+    top: 4rem;
+}
+.section .box-container img{
+    left: 30rem;
+    bottom: 9rem;
+    width: 250px;
+    height: 350px;
+}
+.section .box-container .btn{
+     top: -13rem;
+     left: 3rem;
+     font-size: 1.3rem;
+}
+.features h2{
+    font-size: 1.8rem;
+    top: 7rem;
+    left: 19rem;
+    margin: 0 -18rem;
+}
+.features .loans .items{
+    padding: 1.8rem 0rem;
+    left: 4rem;
+    top: 5rem;
+    font-size: 1.5rem;
+}
+.features .loans p{
+    top: 5rem;
+    font-size: 1.2rem;
+    left: 3rem;
+}
+.features .loans li{
+    top: 5.8rem;
+    font-size: 1.2rem;
+    padding: .2rem;
+    left: 3.8rem;
+}
+.features img{
+    width: 240px;
+    top: -13rem;
+    height: 290px;
+    left: 45rem;
+}
+.pricing h1{
+    left: 6rem;
+    font-size: 2.2rem;
+ top: -11rem;
+}
+.pricing h2{
+    left: 31rem;
+    font-size: 2.1rem;
+    top: -13rem;
+}
+.pricing div{
+    position: relative;
+    top: -18rem;
+}
+
+.pricing p{
+    padding:1rem 1rem;
+    left: 5rem;
+    top: -14rem;
+    font-size: 1.5rem;
+}
+.pricing .btn{
+    left: 4.5rem;
+    top: -15rem;
+}
+
+.businessLoan .box-container{
+    margin: 0 -25rem;
+    left: 26rem;
+    position: relative;
+}
+.businessLoan h3{
+    left: 10rem;
+}
+td{
+    border: 0.1px dotted blue;
+    padding: 1rem 6rem;
+    left: 5rem;
+    position: relative
+}
+table{
+    left: -6rem;
+}
+.pricing div{
+   position: relative;
+        bottom: -4rem;
+}
+.pricing p{
+    top: -13rem;
+}
+.pricing .btn{
+    top: -13rem;
+}
+.pricing h2{
+    left: 31rem;
+    font-size: 1.5rem;
+}
+.businessLoan{
+    bottom: 42rem;
+}
+.simple .box-container{
+    display: flex;
+    position: relative;
+    left: 30rem;
+}
+.simple .box-container .box h2{
+    border-radius: .5rem;
+}
+.simple .box-container .box img{
+    height: 200px;
+    width: 200px;
+    margin: 0 3rem;
+}
+.simple p{
+    left: 1rem;
+    position: relative;
+}
+.simple h1{
+    top: 1rem;
+    left: 38rem;
+    margin: 0 -15rem;
+    font-weight: 300;
+}
+.simple h2{
+    padding: 0 -2rem;
+    margin: 0 3em;
+    left:-2rem;
+}
+.simple .box{
+    position: relative;
+    left: -35rem;
+    padding: 1rem;
+}
+.simple{
+    position: relative;
+    margin: 0 -19rem;
+    left: 19rem;
+}
+.question h1{
+    font-size: 2.3rem;
+    margin: 0 -2rem;
+    left: 16rem;
+  }
+  .question .box{
+   position: relative;
+   left: -8rem;
+  }
+  .question .box .accordion{
+      font-size: 1.5rem;
+      padding: 1rem 18rem;
+      left: 2rem;
+  }
+  .question .box .panel{
+      padding: 1rem -8rem;
+      position: relative;
+  }
+  .credit .link h1{
+      margin: 0 -55rem;
+      left: 22rem;
+  }
+  .credit .link p{
+      margin: 0 -40rem;
+      top: 1rem;
+  }
+  .credit .link .btn{
+      margin: 4rem -8rem;
+      padding: 1rem 3rem;
+      left: -25rem;
+  }
+  .credit .link img{
+      left: 40rem;
+      height: 350px;
+      width:300px;
+      top: 5rem;
+  }
+  .credit{
+     padding: 2rem 35rem;
+  }
+  .contact .box-container{
+     padding:20rem 40em;
+  }
+  .contact .box-container img{
+      left: 5rem;
+      height: 300px;
+      width: 200px;
+  }
+  .contact h1{
+      font-size: 2rem;
+      left: -5rem;
+      margin: -10rem -8rem;
+  }
+  .contact a{
+      top: 6rem;
+      left: -8rem;
+    }
+    .contact p{
+      font-size: 1.3rem;
+      top: 6rem;
+      left: 22rem;
+      margin: 0 -34rem;
+  }
+  .footer{
+   bottom: -300pc;
+   position: absolute;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width:800px){
+    *{
+        left: 5.5rem;
+    }
+    .header a{
+        left: 62pc;
+    }
+    .header{
+        left: 5rem;
+        position: relative;
+    }
+    .header .content h1{
+        font-size: 1.4rem;
+        padding: 1rem;
+        left: 2rem;
+        position: relative;
+    }
+    .header .logo{
+        font-size: 2.2rem;
+        left: -2.5rem;
+        position: relative;
+    }
+    .header .content img{
+        left: 24rem;
+        bottom: 18rem;
+        width: 350px;
+        height: 350px;
+        z-index: -1;
+    }
+    .header .content p{
+        top: -1rem;
+        position: relative;
+        left: -2.2rem;
+    }
+    .header .content .btn{
+        top: -18rem;
+        left: 2.2rem;
+        font-size: 1.3rem;
+    }
+    .header .content .para{
+        font-size: 1.2rem;
+        font-weight:549;
+        left: 2.2rem;
+        top: 30rem;
+    }
+    .section .box-container h2{
+        font-size: 1.4rem;
+        padding: 1rem;
+        left: 2rem;
+        bottom: -5rem;
+        position: relative;
+    }
+    .section .items li{
+        font-size: 1.1rem;
+        left: 4.2rem;
+        top: 4rem;
+    }
+    .section .box-container img{
+        left: 24rem;
+        bottom: 9rem;
+        width: 350px;
+        height: 350px;
+        z-index: -1;
+    }
+    .section .box-container .btn{
+         top: -8rem;
+         left: 2.2rem;
+         font-size: 1.3rem;
+    }
+    .features h2{
+        font-size: 1.3rem;
+        top: 8.5rem;
+        left: 8rem;
+        margin: 0 -8rem;
+    }
+    .features .loans .items{
+        padding: 1.8rem 0rem;
+        left: 5rem;
+        top: 5rem;
+        font-size: 1rem;
+    }
+    .features .loans p{
+        top: 5rem;
+        font-size: 1rem;
+        left: 3rem;
+    }
+    .features .loans li{
+        top: 5.8rem;
+        font-size: 1rem;
+        padding: .2rem;
+        left: 3.8rem;
+    }
+    .features img{
+        width: 240px;
+        top: -13rem;
+        height: 290px;
+        left: 45rem;
+        z-index: -1;
+    }
+    .pricing h1{
+        left: 1rem;
+        font-size: 2rem;
+     top: 7rem;
+    }
+    .pricing h2{
+        left: 31rem;
+        font-size: 2.1rem;
+        top:5rem;
+    }
+    .pricing div{
+        position: relative;
+        top: -38rem;
+        left: 1rem;
+    }
+    .pricing div p{
+position: relative;
+        left: 1rem;
+       top: 5rem;
+        font-size: 1.5rem;
+    }
+    .pricing div .btn{
+        left: 0rem;
+        top: 15rem;
+        position: absolute;
+    }
+    .businessLoan .box-container{
+        margin: 0 -25rem;
+        left: 22rem;
+        position: relative;
+    }
+    .businessLoan h3{
+        left: 19rem;
+    }
+    td{
+        border: 0.1px dotted blue;
+        padding: 1rem 6rem;
+        left: 5rem;
+        position: relative
+    }
+    table{
+        left: -6rem;
+    }
+   
+    .businessLoan{
+        bottom: 42rem;
+    }
+    .simple .box-container{
+        display: flex;
+    }
+    .simple .box-container .box h2{
+        border-radius: 0.5rem;
+    padding: 0rem 4rem;
+    margin: 0px 2.5rem;
+    left: -0.5rem;
+    }
+    .simple .box-container .box img{
+        height: 165px;
+        width: 227px;
+        margin: 0 2rem;
+    }
+    .simple h1{
+        top: 1rem;
+        left: 0rem;
+        margin: 0 -15rem;
+        font-weight: 300;
+    }
+    .simple h2{
+        padding: 0 -2rem;
+        margin: 0 12rem;
+        left:5rem;
+    }
+    .simple .box{
+        position: relative;
+        left: -43rem;
+        padding: 1rem;
+    }
+    .simple .box-container p{
+        left: 2rem;
+    }
+    .simple{
+    padding: 0 95vw;
+    }
+    .question h1{
+        font-size: 2rem;
+        margin: 0 -2rem;
+        left: 18rem;
+      }
+      .question .box{
+       position: relative;
+       left: -9rem;
+      }
+      .question .box .accordion{
+          font-size: 1.2rem;
+          padding: 1rem 17.8rem;
+      }
+      .question .box .panel{
+          padding: 1rem -58rem;
+          position: relative;
+      }
+      .credit .link h1{
+          margin: 0 -55rem;
+          left: 14rem;
+      }
+      .credit .link p{
+          margin: 0 -48rem;
+          top: 1rem;
+      }
+      .credit .link .btn{
+          margin: 4rem -8rem;
+          padding: 1rem 3rem;
+          left: -33rem;
+      }
+      .credit .link img{
+          left: 45em;
+          height: 350px;
+          width:300px;
+          top: 5rem;
+      }
+      .credit{
+         padding: 2rem 48rem;
+      }
+      .contact .box-container{
+         padding:20rem 40em;
+      }
+      .contact .box-container img{
+          left: 5rem;
+          height: 350px;
+          width: 250px;
+          top: 8rem;
+      }
+      .contact h1{
+          font-size: 2rem;
+          left: -5rem;
+          margin: -10rem -8rem;
+      }
+      .contact a{
+          top: 6rem;
+          left:-8rem;
+        }
+        .contact p{
+          font-size: 1.3rem;
+          top: 6rem;
+          left: 20rem;
+          margin: 0 -34rem;
+          padding: 2rem;
+      }
+      .footer{
+        margin: 0 -15rem;
+        left: 42rem;
+        top: 310rem;
+      }
+}
+@media only screen and (min-width: 801px) and (max-width:945px){
+    *{
+        left: 5rem;
+    }
+    .header a{
+        left: 60pc;
+        font-size: 1rem;
+    }
+    .header .content h1{
+        font-size: 1.4rem;
+        padding: 1rem;
+        left: 8rem;
+        position: relative;
+    }
+    .header .logo{
+        font-size: 2rem;
+        left: 3.5rem;
+        position: relative;
+    }
+    .header .content img{
+        left: 35rem;
+        z-index: -1;
+        bottom: 18rem;
+        width: 250px;
+        height: 300px;
+    }
+    .header .content p{
+        top: -1rem;
+        position: relative;
+        left:4.2rem;
+        font-size: 1rem;
+    }
+    .header .content .btn{
+        top: -18rem;
+        left: 9.2rem;
+        font-size: 1rem;
+    }
+    .header .content .para{
+        font-size: 1rem;
+        font-weight:549;
+        left: 9.2rem;
+        top: 24rem;
+    }
+    .section .box-container h2{
+        font-size: 1.4rem;
+        padding: 1rem;
+        left: 2rem;
+        bottom: -5rem;
+        position: relative;
+    }
+    .section .items li{
+        font-size: 1.1rem;
+        left: 4.2rem;
+        top: 4rem;
+    }
+    .section .box-container img{
+        left: 28rem;
+        bottom: 12rem;
+        width: 250px;
+        height: 300px;
+    }
+    .section .box-container .btn{
+         top: -11rem;
+         left: 2.2rem;
+         font-size: 1rem;
+    }
+    .features h2{
+        font-size: 1.4rem;
+        top: 7.5rem;
+        left: 8rem;
+        margin: 0 -8rem;
+    }
+    .features .loans .items{
+        padding: 1.8rem 0rem;
+        left: 5rem;
+        top: 5rem;
+        font-size: 1rem;
+    }
+    .features .loans p{
+        top: 5rem;
+        font-size: 1rem;
+        left: 5rem;
+    }
+    .features .loans li{
+        top: 5.8rem;
+        font-size: 1rem;
+        padding: .2rem;
+        left: 4.8rem;
+    }
+    .features img{
+        width: 240px;
+        top: -14rem;
+        height: 290px;
+        left: 40rem;
+    }
+    .pricing h1{
+        left: 6rem;
+        font-size: 2rem;
+     top: 7rem;
+    }
+    .pricing h2{
+        left: 31rem;
+        font-size: 1.5rem;
+        top:5rem;
+        left: 30rem;
+    }
+    .pricing div{
+        position: relative;
+top: -54rem;
+        left: -5rem;
+    }
+    .pricing div p{
+position: relative;
+        left: 6rem;
+       top: 7rem;
+        font-size: 1.5rem;
+    }
+    .pricing div .btn{
+        left: 4.5rem;
+        top: 18rem;
+        position: absolute;
+    }
+    .businessLoan .box-container{
+        margin: 0px -17rem;
+    left: 19rem;
+    position: relative;
+    padding: 0rem;
+    }
+    .businessLoan h3{
+        left: 12rem;
+        font-size: 2rem;
+    }
+    td{
+        border: 0.1px dotted blue;
+        padding: 1rem 2em;
+        left: 5rem;
+        position: relative
+    }
+    table{
+        left: -6rem;
+    }
+   
+    .businessLoan{
+        bottom: 45rem;
+    }
+    .simple .box-container{
+        display: flex;
+    }
+    .simple .box-container .box h2{
+        border-radius: 0.5rem;
+    padding: 0rem 4rem;
+    margin: 0px 2.5rem;
+    left: -0.5rem;
+    }
+    .simple .box-container .box img{
+        height: 165px;
+        width: 227px;
+        margin: 0 2rem;
+    }
+    .simple h1{
+        top: 1rem;
+        left: -1rem;
+        font-size: 2.2rem;
+        margin: 0 -15rem;
+        font-weight: 300;
+    }
+    .simple h2{
+        padding: 0 -2rem;
+        margin: 0 12rem;
+        left:-2rem;
+    }
+    .simple .box{
+        position: relative;
+        left: -45rem;
+        padding: 1rem;
+    }
+    .simple .box-container p{
+        left: 2rem;
+    }
+    .simple{
+    padding: 0 75vw;
+    }
+    .question h1{
+        font-size: 2rem;
+        margin: 0 -2rem;
+        left: 7rem;
+      }
+      .question .box{
+       position: relative;
+       left: -8rem;
+      }
+      .question .box .accordion{
+          font-size: 1.2rem;
+          padding: 1rem 14rem;
+      }
+      .question .box .panel{
+          padding: 1rem -5rem;
+          position: relative;
+      }
+      .credit .link h1{
+          margin: 0 -55rem;
+          left: 14rem;
+      }
+      .credit .link p{
+          margin: 0 -48rem;
+          top: 1rem;
+      }
+      .credit .link .btn{
+          margin: 4rem -8rem;
+          padding: 1rem 3rem;
+          left: -33rem;
+      }
+      .credit .link img{
+          left: 40em;
+          height: 350px;
+          width:300px;
+          top: 5rem;
+      }
+      .credit{
+         padding: 2rem 48rem;
+      }
+      .contact .box-container{
+         padding:20rem 40em;
+      }
+      .contact .box-container img{
+          left: 5rem;
+          height: 300px;
+          width: 200px;
+          top: 5rem;
+      }
+      .contact h1{
+          font-size: 2rem;
+          left: -5rem;
+          margin: -10rem -8rem;
+      }
+      .contact a{
+          top: 6rem;
+          left:-8rem;
+        }
+        .contact p{
+          font-size: 1.3rem;
+          top: 6rem;
+          left: 22rem;
+          margin: 0 -34rem;
+      }
+      .footer{
+        margin: 0 -8rem;
+        left: 25rem;
+        top: 1rem;
+      }
+    
+}
+@media only screen and (min-width: 946px) and (max-width:1100px){
+    .logo{
+        font-size: 2rem;
+        font-weight:500;
+        color:#2b84ea;
+        padding: 1rem 2rem;
+        font-weight: 900;
+    }
+    .header .content h1{
+        color: #274598;
+        font-family: "Mulish", Sans-serif;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 52px;
+        align-items: center;
+        padding: 3rem 4rem;
+    }
+    .header .content span{
+        color:#2b84ea
+    }
+    .header .content p{
+        color: black;
+        font-size: 1.2rem;
+        padding: 2rem 5rem;
+        left: -1rem;
+        position: relative;
+        top: -3rem;
+    }
+    .header .content .btn{
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        border: none;
+        position: relative;
+        left:4rem;
+        background-color:#2b84ea;
+        color: white;
+        top: -18rem;
+        cursor: pointer;
+    }
+    .header .content img{
+        height: 50vh;
+        width: 25vw;
+        position: relative;
+        left: 21rem;
+        bottom: 22rem;
+        z-index: -1;
+    }
+    .header .content .para{
+        position: absolute;
+        left: 4rem;
+        bottom: 15rem;
+    }
+    .header a{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        left: 46pc;
+        background-color: red;
+        padding: .7rem .2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        position: fixed;
+        top: 1.8rem;
+    }
+    .header{
+        left: 2.4rem;
+        position: relative;
+    }
+    .header a i{
+        color: white;
+    }
+    .section .box-container{
+        position: relative;
+        bottom: 15rem;
+    }
+    .section .box-container img{
+        height: 60vh;
+        width: 22vw;
+        position: relative;
+        left: 25rem;
+        bottom: 19rem;
+        z-index: -1;
+    }
+    .section h2{
+        color: #274598;
+        font-family: "Mulish", Sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 52px;
+        align-items: center;
+        padding: 6rem 7rem;
+    }
+    .section .items li{
+    font-size: 1.4rem;
+    bottom: 3rem;
+    position: relative;
+    padding: .5rem 1rem;
+    left: 8rem;
+    }
+    .section .btn{
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        border: none;
+        position: relative;
+        left: 7rem;
+        background-color:#2b84ea;
+        color: white;
+        top: -19rem;
+        cursor: pointer;
+    }
+    .features{
+        position: relative;
+        bottom: 32rem;
+    }
+    .features h2{
+        color:#0C2266;
+        font-family: "Mulish", Sans-serif;
+        font-size: 1.3rem;
+        line-height: 52px;
+        padding: 1rem 7rem;
+        left: 5rem;
+        position: relative;
+    }
+    .features .loans .items{
+        font-size: 1.4rem;
+        padding: 2rem 8.5rem;
+       font-weight: 550;
+    }
+    .features .loans li{
+        padding: .2rem 8rem;
+        position: relative;
+    }
+    .features p{
+        position: relative;
+        left:9.5rem;
+        top: -1.3rem;
+    }
+    .features span{
+        position: relative;
+        left: 9rem;
+    }
+    .features img{
+        height:320px;
+        width: 250px;
+        position: relative;
+        bottom: 20rem;
+        left: 40rem;
+        z-index: -1;
+    }
+    .businessLoan{
+        background-color: #2b84ea;
+        z-index: -1;
+    position: relative;    
+    bottom: 45rem;
+    }
+    .businessLoan span{
+        left: 9rem;
+        position: relative;
+    }
+    .businessLoan .box-container{
+        background-color: #2b84ea;
+        position: relative;
+        left: -5rem;
+        margin: 0 -8rem;
+    }
+    .businessLoan h3{
+        color: white;
+        position: relative;
+        left: 20rem;
+        font-size: 2.5rem;
+    }
+    section.pricing{
+        position: absolute;
+        top: 168rem;
+    }
+    .pricing h1{
+        position: relative;
+        left: 7rem;
+        color: #0C2266;;
+        font-size: 1.5rem;
+        top: -1rem;
+    }
+    .pricing h2{
+        font-size: 1.5rem;
+        position: relative;
+        left: 35rem;
+        bottom: 3rem;
+        color: #0C2266;;
+    }
+    .pricing div{
+        position: relative;
+        top:-4rem;
+        left: -4rem;
+    }
+    .pricing p{
+        font-size: 1.3rem;
+        position: relative;
+        left: 7rem;
+    }
+    .pricing .btn{
+        position: relative;
+        left: 5.5rem;
+        font-size: 1rem;
+        color: white;
+        background: #2b84ea;
+        margin: 1.5rem;
+        border: none;
+        border-radius: .2rem;
+        top: 0rem;
+        padding: .8rem 2rem;
+        cursor: pointer;
+    }
+    .simple .box-container{
+        display: flex;
+    }
+    .simple .box-container .box h2{
+        border-radius: 0.5rem;
+    padding: 0rem 4rem;
+    margin: 0px 1rem;
+    left: -0.5rem;
+    }
+    .simple .box-container .box img{
+        height: 165px;
+        width: 200px;
+        margin: 0 1rem;
+    }
+    .simple h1{
+        top: 1rem;
+        left: -15rem;
+        font-size: 2.2rem;
+        margin: 0 -15rem;
+        font-weight: 300;
+    }
+    .simple h2{
+        padding: 0 -2rem;
+        margin: 0 12rem;
+        left:-8rem;
+    }
+    .simple .box{
+        position: relative;
+        left: -55rem;
+        padding: 1rem;
+    }
+    .simple .box-container p{
+        left: 0rem;
+    }
+    .simple{
+    padding: 0 75vw;
+    }
+    .question h1{
+        font-size: 2rem;
+        margin: 0 -2rem;
+        left: -1rem;
+      }
+      .question .box{
+       position: relative;
+       left: 8rem;
+       font-size: 1.2rem;
+      }
+      .question .box .accordion{
+          font-size: 1.2rem;
+          padding: .5rem 1rem;
+          left: -13rem;
+          position: relative;
+      }
+      .question .box .panel{
+          padding: 0rem -5rem;
+          font-size: 1.2rem;
+          position: relative;
+          margin: 0 -15rem;
+      }
+      .credit .link h1{
+          margin: 0 -55rem;
+          left: 10rem;
+      }
+      .credit .link p{
+          margin: 0 -52rem;
+          top: 1rem;
+      }
+      .credit .link .btn{
+          margin: 4rem -8rem;
+          padding: 1rem 3rem;
+          left: -37rem;
+      }
+      .credit .link img{
+          left: 35em;
+          height: 350px;
+          width:300px;
+          top: 5rem;
+      }
+      .credit{
+         padding: 2rem 48rem;
+      }
+      .contact .box-container{
+         padding:20rem 40em;
+      }
+      .contact .box-container img{
+          left: 5rem;
+          height: 350px;
+          width: 250px;
+          top: 8rem;
+      }
+      .contact h1{
+          font-size: 2rem;
+          left: -5rem;
+          margin: -10rem -8rem;
+      }
+      .contact a{
+          top: 6rem;
+          left:-8rem;
+        }
+        .contact p{
+          font-size: 1.3rem;
+          top: 6rem;
+          left: 20rem;
+          margin: 0 -34rem;
+          padding: 2rem;
+      }
+      .footer{
+        margin: 0 -15rem;
+        left: 35rem;
+        bottom: -315rem;
+      }
+}
+@media only screen and (min-width: 1100px) and (max-width:1300px){
+    .logo{
+        font-size: 2rem;
+        font-weight:500;
+        color:#2b84ea;
+        padding: 1rem 4rem;
+        font-weight: 900;
+    }
+    .header .content h1{
+        color: #274598;
+        font-family: "Mulish", Sans-serif;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 52px;
+        align-items: center;
+        padding: 6rem 7rem;
+    }
+    .header .content span{
+        color:#2b84ea
+    }
+    .header .content p{
+        color: black;
+        font-size: 1.4rem;
+        padding: 2rem 5rem;
+        left: 2rem;
+        position: relative;
+        top: -5rem;
+    }
+    .header .content .btn{
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        border: none;
+        position: relative;
+        left:7rem;
+        background-color:#2b84ea;
+        color: white;
+        top: -29rem;
+        cursor: pointer;
+    }
+    .header .content img{
+        height: 70vh;
+        width: 35vw;
+        position: relative;
+        left: 35rem;
+        bottom: 22rem;
+    }
+    .header .content .para{
+        position: absolute;
+        left: 7rem;
+        bottom: 5rem;
+    }
+    .header a{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        left: 76.5pc;
+        background-color: red;
+        padding: .7rem .2rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        position: fixed;
+        top: 1.8rem;
+    }
+    .header a i{
+        color: white;
+    }
+    .section .box-container{
+        position: relative;
+        bottom: 15rem;
+    }
+    .section .box-container img{
+        height: 70vh;
+        width: 35vw;
+        position: relative;
+        left: 32rem;
+        bottom: 19rem;
+    }
+    .section h2{
+        color: #274598;
+        font-family: "Mulish", Sans-serif;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 52px;
+        align-items: center;
+        padding: 6rem 7rem;
+    }
+    .section .items li{
+    font-size: 1.4rem;
+    bottom: 3rem;
+    position: relative;
+    padding: .5rem 1rem;
+    left: 8rem;
+    }
+    .section .btn{
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        border: none;
+        position: relative;
+        left: 7rem;
+        background-color:#2b84ea;
+        color: white;
+        top: -27rem;
+        cursor: pointer;
+    }
+    .features{
+        position: relative;
+        bottom: 32rem;
+    }
+    .features h2{
+        color:#0C2266;
+        font-family: "Mulish", Sans-serif;
+        font-size: 1.8rem;
+        line-height: 52px;
+        padding: 1rem 7rem;
+        left: 10rem;
+        position: relative;
+    }
+    .features .loans .items{
+        font-size: 1.4rem;
+        padding: 2rem 8.5rem;
+       font-weight: 550;
+    }
+    .features .loans li{
+        padding: .2rem 8rem;
+        position: relative;
+    }
+    .features p{
+        position: relative;
+        left:9.5rem;
+        top: -1.3rem;
+    }
+    .features span{
+        position: relative;
+        left: 9rem;
+    }
+    .features img{
+        height: 55vh;
+        width: 20vw;
+        position: relative;
+        bottom: 20rem;
+        left: 48rem;
+    }
+}
